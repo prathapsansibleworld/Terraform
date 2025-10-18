@@ -3,7 +3,7 @@ resource "aws_instance" "terraform" {
     instance_type = "t3.micro"
     vpc_security_group_ids = [aws_security_group.alltraffic_allow.id]
     tags = {
-        Name = "terraform-1"
+        Name = "prathaps terraform"
         Terraform = "true"
     }
 }
